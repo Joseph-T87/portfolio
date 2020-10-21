@@ -1,0 +1,216 @@
+/***** BASE STYLES *****/
+
+body {
+	color: #fff;
+	background: #1f202b;
+	font-family: 'Montserrat', sans-serif;
+	height: 3300px; 
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	width: 1200px;
+}
+
+/***** HEADER *****/
+
+header {
+
+    background-position: center 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url('../img/hero.png');
+	height: 800px;
+}   
+
+header a:hover {
+	background-color: #000;
+	color: #fa0075;
+	text-decoration: underline overline;
+}
+
+header h1 {
+	color: #e37c1e;
+	float: left;
+	font-size: 30px;
+}
+
+header h2 {
+    clear: both;
+	color: #fff;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+	font-style: oblique;
+	letter-spacing: 5px;
+	margin: 20px;
+	padding: 60px;
+	text-shadow: 4px 4px 4px black,
+				 8px 8px 8px black;
+}
+
+header h2 span {
+	color: #fa0075;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+	font-weight: 400;
+	font-size: 30px;
+	padding:  20px;
+}
+
+header nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+	height: 1550px;
+}
+
+#portfolio img {
+	border: 3px solid #fa0075;
+	border-radius: 50%;
+	float: right;
+	margin: 25px 50px;
+}
+
+#portfolio h2 {
+	color: #e37c1e;
+	font-size: 36px;
+	text-align: center;
+}
+
+#portfolio h3 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+#portfolio h4 {
+	color: #fa0075;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#portfolio p {
+	float: left;
+	font-size: 24px;
+	padding: 50px 25px;
+	text-align: center;
+	width: 600px;
+}
+
+#potfolio .second {
+	float: right;
+}
+
+#portfolio .secondo {
+	color: #e37c1e;
+}
+
+#portfolio .two {
+	border: 3px solid #e37c1e;
+	float: left;
+}
+
+/***** ABOUT *****/
+
+#about {
+	clear: both;
+	background: url('../img/about.png');
+	height: 550px;
+	margin: 100px 0;
+}
+
+#about h2 {
+	color: #e37c1e;
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 4px 4px 4px black,
+				 8px 8px 8px black;
+}
+
+#about h3 {
+	color: #1f202b;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#about p {
+	color: #1f202b;
+	font-size: 24px;
+	line-spacing: 10px;
+	text-align: center;
+	word-spacing: 5px;
+}
+
+#about img {
+	border-radius: 8px;
+	float: left;
+	margin: 10px;
+}
+
+/***** FOOTER *****/
+
+#contact {
+	height: 400px;
+}
+
+#contact h2 {
+	color: #e37c1e;
+	font-size: 36px;
+	margin: 25px;
+	text-align: center;
+}
+
+#contact h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 25px;
+	text-align: center;
+}
+
+
+#contact h4 span {
+	color: #fa0075;
+}
+
+#contact a {
+	color: #e37c1e;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: #fa0075;
+	text-decoration: underline overline;
+}
+
+#contact .media{
+	padding-left: 550px;
+}
